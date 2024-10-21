@@ -1,0 +1,175 @@
+** Pattern 1: creating 8 threads **
+Parent: created thread 1 (tid 140370855278144)
+Thread 1 (tid 140370855278144) started: will sleep for 5 seconds
+Parent: created thread 2 (tid 140370846885440)
+Parent: created thread 3 (tid 140370838492736)
+Thread 2 (tid 140370846885440) started: will sleep for 6 seconds
+Thread 3 (tid 140370838492736) started: will sleep for 6 seconds
+Parent: created thread 4 (tid 140370830100032)
+Thread 4 (tid 140370830100032) started: will sleep for 2 seconds
+Parent: created thread 5 (tid 140370821707328)
+Thread 5 (tid 140370821707328) started: will sleep for 6 seconds
+Parent: created thread 6 (tid 140370813314624)
+Thread 6 (tid 140370813314624) started: will sleep for 8 seconds
+Parent: created thread 7 (tid 140370804921920)
+Thread 7 (tid 140370804921920) started: will sleep for 4 seconds
+Parent: created thread 8 (tid 140370796529216)
+Thread 8 (tid 140370796529216) started: will sleep for 8 seconds
+Thread 4 (tid 140370830100032) exiting.
+Thread 7 (tid 140370804921920) exiting.
+Thread 1 (tid 140370855278144) exiting.
+Thread 2 (tid 140370846885440) exiting.
+Thread 3 (tid 140370838492736) exiting.
+Thread 5 (tid 140370821707328) exiting.
+Thread 6 (tid 140370813314624) exiting.
+Thread 8 (tid 140370796529216) exiting.
+** Pattern 1: All threads have exited **
+
+** Pattern 1: creating 16 threads **
+Parent: created thread 1 (tid 140379882321472)
+Thread 1 (tid 140379882321472) started: will sleep for 1 seconds
+Parent: created thread 2 (tid 140379873928768)
+Thread 2 (tid 140379873928768) started: will sleep for 3 seconds
+Parent: created thread 3 (tid 140379865536064)
+Thread 3 (tid 140379865536064) started: will sleep for 6 seconds
+Parent: created thread 4 (tid 140379857143360)
+Thread 4 (tid 140379857143360) started: will sleep for 2 seconds
+Parent: created thread 5 (tid 140379848750656)
+Thread 5 (tid 140379848750656) started: will sleep for 4 seconds
+Parent: created thread 6 (tid 140379840357952)
+Thread 6 (tid 140379840357952) started: will sleep for 5 seconds
+Parent: created thread 7 (tid 140379831965248)
+Thread 7 (tid 140379831965248) started: will sleep for 4 seconds
+Parent: created thread 8 (tid 140379823572544)
+Thread 8 (tid 140379823572544) started: will sleep for 3 seconds
+Parent: created thread 9 (tid 140379815179840)
+Thread 9 (tid 140379815179840) started: will sleep for 5 seconds
+Parent: created thread 10 (tid 140379806787136)
+Thread 10 (tid 140379806787136) started: will sleep for 1 seconds
+Parent: created thread 11 (tid 140379798394432)
+Thread 11 (tid 140379798394432) started: will sleep for 3 seconds
+Parent: created thread 12 (tid 140379790001728)
+Thread 12 (tid 140379790001728) started: will sleep for 4 seconds
+Parent: created thread 13 (tid 140379781609024)
+Thread 13 (tid 140379781609024) started: will sleep for 6 seconds
+Parent: created thread 14 (tid 140379773216320)
+Thread 14 (tid 140379773216320) started: will sleep for 5 seconds
+Parent: created thread 15 (tid 140379764823616)
+Thread 15 (tid 140379764823616) started: will sleep for 7 seconds
+Parent: created thread 16 (tid 140379756430912)
+Thread 16 (tid 140379756430912) started: will sleep for 3 seconds
+Thread 1 (tid 140379882321472) exiting.
+Thread 10 (tid 140379806787136) exiting.
+Thread 4 (tid 140379857143360) exiting.
+Thread 2 (tid 140379873928768) exiting.
+Thread 8 (tid 140379823572544) exiting.
+Thread 11 (tid 140379798394432) exiting.
+Thread 16 (tid 140379756430912) exiting.
+Thread 5 (tid 140379848750656) exiting.
+Thread 7 (tid 140379831965248) exiting.
+Thread 12 (tid 140379790001728) exiting.
+Thread 6 (tid 140379840357952) exiting.
+Thread 9 (tid 140379815179840) exiting.
+Thread 14 (tid 140379773216320) exiting.
+Thread 3 (tid 140379865536064) exiting.
+Thread 13 (tid 140379781609024) exiting.
+Thread 15 (tid 140379764823616) exiting.
+** Pattern 1: All threads have exited **
+
+** Pattern 2: creating 8 threads **
+Thread 1 (tid 140257405060672) started.
+Thread 1 (tid 140257405060672) created Thread 2 (tid 140257324430912)
+Thread 1 (tid 140257405060672) sleeping for 3 seconds.
+Thread 2 (tid 140257324430912) started.
+Thread 2 (tid 140257324430912) created Thread 3 (tid 140257316038208)
+Thread 2 (tid 140257324430912) sleeping for 3 seconds.
+Thread 3 (tid 140257316038208) started.
+Thread 3 (tid 140257316038208) created Thread 4 (tid 140257307645504)
+Thread 3 (tid 140257316038208) sleeping for 3 seconds.
+Thread 4 (tid 140257307645504) started.
+Thread 4 (tid 140257307645504) created Thread 5 (tid 140257299252800)
+Thread 4 (tid 140257307645504) sleeping for 1 seconds.
+Thread 5 (tid 140257299252800) started.
+Thread 5 (tid 140257299252800) created Thread 6 (tid 140257290860096)
+Thread 5 (tid 140257299252800) sleeping for 7 seconds.
+Thread 6 (tid 140257290860096) started.
+Thread 6 (tid 140257290860096) created Thread 7 (tid 140257282467392)
+Thread 6 (tid 140257290860096) sleeping for 3 seconds.
+Thread 7 (tid 140257282467392) started.
+Thread 7 (tid 140257282467392) created Thread 8 (tid 140257274074688)
+Thread 7 (tid 140257282467392) sleeping for 4 seconds.
+Thread 8 (tid 140257274074688) sleeping for 7 seconds.
+Thread 8 (tid 140257274074688) exiting.
+Thread 7 (tid 140257282467392) exiting.
+Thread 6 (tid 140257290860096) exiting.
+Thread 5 (tid 140257299252800) exiting.
+Thread 4 (tid 140257307645504) exiting.
+Thread 3 (tid 140257316038208) exiting.
+Thread 2 (tid 140257324430912) exiting.
+Thread 1 (tid 140257405060672) exiting.
+** Pattern 2: All threads have exited **
+
+** Pattern 2: creating 16 threads **
+Thread 1 (tid 139937363154496) started.
+Thread 1 (tid 139937363154496) created Thread 2 (tid 139937282258496)
+Thread 1 (tid 139937363154496) sleeping for 3 seconds.
+Thread 2 (tid 139937282258496) started.
+Thread 2 (tid 139937282258496) created Thread 3 (tid 139937273865792)
+Thread 2 (tid 139937282258496) sleeping for 8 seconds.
+Thread 3 (tid 139937273865792) started.
+Thread 3 (tid 139937273865792) created Thread 4 (tid 139937265473088)
+Thread 3 (tid 139937273865792) sleeping for 5 seconds.
+Thread 4 (tid 139937265473088) started.
+Thread 4 (tid 139937265473088) created Thread 5 (tid 139937257080384)
+Thread 4 (tid 139937265473088) sleeping for 5 seconds.
+Thread 5 (tid 139937257080384) started.
+Thread 5 (tid 139937257080384) created Thread 6 (tid 139937248687680)
+Thread 5 (tid 139937257080384) sleeping for 5 seconds.
+Thread 6 (tid 139937248687680) started.
+Thread 6 (tid 139937248687680) created Thread 7 (tid 139937240294976)
+Thread 6 (tid 139937248687680) sleeping for 4 seconds.
+Thread 7 (tid 139937240294976) started.
+Thread 7 (tid 139937240294976) created Thread 8 (tid 139937231902272)
+Thread 7 (tid 139937240294976) sleeping for 2 seconds.
+Thread 8 (tid 139937231902272) started.
+Thread 8 (tid 139937231902272) created Thread 9 (tid 139936745387584)
+Thread 8 (tid 139937231902272) sleeping for 8 seconds.
+Thread 9 (tid 139936745387584) started.
+Thread 9 (tid 139936745387584) created Thread 10 (tid 139936736994880)
+Thread 9 (tid 139936745387584) sleeping for 5 seconds.
+Thread 10 (tid 139936736994880) started.
+Thread 10 (tid 139936736994880) created Thread 11 (tid 139936728602176)
+Thread 10 (tid 139936736994880) sleeping for 1 seconds.
+Thread 11 (tid 139936728602176) started.
+Thread 11 (tid 139936728602176) created Thread 12 (tid 139936720209472)
+Thread 11 (tid 139936728602176) sleeping for 5 seconds.
+Thread 12 (tid 139936720209472) started.
+Thread 12 (tid 139936720209472) created Thread 13 (tid 139936711816768)
+Thread 12 (tid 139936720209472) sleeping for 5 seconds.
+Thread 13 (tid 139936711816768) started.
+Thread 13 (tid 139936711816768) created Thread 14 (tid 139936703424064)
+Thread 13 (tid 139936711816768) sleeping for 1 seconds.
+Thread 14 (tid 139936703424064) started.
+Thread 14 (tid 139936703424064) created Thread 15 (tid 139936695031360)
+Thread 14 (tid 139936703424064) sleeping for 7 seconds.
+Thread 15 (tid 139936695031360) started.
+Thread 15 (tid 139936695031360) created Thread 16 (tid 139936208516672)
+Thread 15 (tid 139936695031360) sleeping for 8 seconds.
+Thread 16 (tid 139936208516672) sleeping for 5 seconds.
+Thread 16 (tid 139936208516672) exiting.
+Thread 15 (tid 139936695031360) exiting.
+Thread 14 (tid 139936703424064) exiting.
+Thread 13 (tid 139936711816768) exiting.
+Thread 12 (tid 139936720209472) exiting.
+Thread 11 (tid 139936728602176) exiting.
+Thread 10 (tid 139936736994880) exiting.
+Thread 9 (tid 139936745387584) exiting.
+Thread 8 (tid 139937231902272) exiting.
+Thread 7 (tid 139937240294976) exiting.
+Thread 6 (tid 139937248687680) exiting.
+Thread 5 (tid 139937257080384) exiting.
+Thread 4 (tid 139937265473088) exiting.
+Thread 3 (tid 139937273865792) exiting.
+Thread 2 (tid 139937282258496) exiting.
+Thread 1 (tid 139937363154496) exiting.
+** Pattern 2: All threads have exited **
